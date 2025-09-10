@@ -125,13 +125,14 @@ main .textoAntesFooter .texto button {
 }
 
 footer {
-    background: linear-gradient(to right, #fa4a54, #be0266);
+    background: linear-gradient(to right, #fd4c5c, #fd2e5c);
     padding: 40px 10%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 20px;
     color: white;
+    height: 40vh;
 }
 
 .footer-section {
