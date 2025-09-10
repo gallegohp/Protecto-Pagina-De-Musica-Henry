@@ -38,15 +38,14 @@ main {
     justify-content: center;
     align-items: center;
     background-color: rgb(255, 255, 255);
-    height: 100vh;
 }
 main .contenedor {
     display: flex;
-    align-items: center;
+    align-items: center; 
     justify-content: space-around;
     gap: 40px;
     padding: 20px;
-    max-width: 1200px;
+    max-width: 1500px;
     margin: auto;
     }
 
@@ -54,6 +53,7 @@ main .contenedor-texto {
     display: flex;
     flex-direction: column;
     width: 50%;
+    align-items: flex-start;
 }
 main .contenedor-texto .highlight {
     font-size: 4rem;
@@ -83,4 +83,89 @@ main .contenedor-imagen {
     justify-content: center;
     align-items: center;
     width: 50%;
+}
+main .textoAntesFooter {
+    
+    display: flex;
+    background-image: url(../assets/raptis.png);
+    background-position: right center;
+    justify-content: flex-end;
+    background-position: right center;
+    align-items:center;
+    background-size: cover;
+    height: 90vh;
+    width: 100vw;
+}
+main .textoAntesFooter .texto{
+
+    align-items: flex-start;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: white;
+    font-weight: bold;
+    max-width: 750px;
+    padding-right: 100px;
+}
+main .textoAntesFooter .texto h1 {
+    
+    font-size: 4rem;
+}
+main .textoAntesFooter .texto p {
+    font-size: 1.5rem;
+}
+main .textoAntesFooter .texto button {
+    font-size: 1.5rem;
+    padding: 20px 50px;
+    border: none;
+    background: #fd4c5c;
+    color : white;
+    border-radius: 20px;
+}
+
+footer {
+    background: linear-gradient(to right, #fa4a54, #be0266);
+    padding: 40px 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    color: white;
+}
+
+.footer-section {
+    flex: 1 1 200px;
+    min-width: 200px;
+}
+
+.footer-section h4 {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9rem;
 }
